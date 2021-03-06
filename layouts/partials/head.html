@@ -14,10 +14,7 @@
             {{ .Title }} &middot; {{ .Site.Title }}
         {{- end }}
     </title>
-    
-    {{ $style := resources.Get "css/open-sans.css" }}
-    {{ $style = $style | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
     {{ $style := resources.Get "css/style.css" }}
     {{ $style = $style | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
