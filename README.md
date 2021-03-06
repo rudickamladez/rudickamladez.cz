@@ -1,5 +1,5 @@
-# Hugo introduction (Noltio blog post content)
+# Rudicka Mladez websites
 
-This is a repository with content for [our blog post](https://noltio.com/cs/blog/uvod-do-static-site-generatoru-hugo/) about Hugo static site generator. It contains all files described in that blog post. Please, for understanding this whole thing just read the article (currently in Czech only).
+This is a repository with content for [our websites](https://rudickamladez.cz) (currently in Czech only).
 
-[Read the post →](https://noltio.com/cs/blog/uvod-do-static-site-generatoru-hugo/)
+It's inspired by [Noltio blog's post](https://noltio.com/cs/blog/uvod-do-static-site-generatoru-hugo/).
