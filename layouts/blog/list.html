@@ -1,6 +1,9 @@
 {{ define "main" }}
 <main class="o-main">
-    <h1>Blog</h1>
+    <div class="c-bloglist__header">
+        <h1>Blog</h1>
+        {{ .Content }}
+    </div>
     <div class="c-bloglist">
         {{ $pages := where .Site.RegularPages "Type" "blog" }}
         {{ range $pages.ByDate.Reverse }}
@@ -9,12 +12,12 @@
                 <a href="{{ .RelPermalink }}" class="c-bloglist__headinglink">{{ .Title }}</a>
             </h2>
             <div class="c-bloglist__metas">
-                {{ .Params.author }} &bull; {{ .PublishDate.Format "2. 1. 2006" }}
+                {{ .Params.author }} &bull; {{ .PublishDate.Format "2. 1. 2006" }} &bull; {{ i18n "readingTime" .ReadingTime }}
             </div>
             <div class="c-bloglist__summary">
                 {{ .Summary }}
             </div>
-            <a href="{{ .RelPermalink }}" class="c-bloglist__link">Číst článek →</a>
+            <a href="{{ .RelPermalink }}" class="c-bloglist__link">{{ i18n "readArticle" }} →</a>
         </div>
         {{ end }}
     </div>

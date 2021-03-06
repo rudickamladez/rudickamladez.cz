@@ -1,6 +1,11 @@
 {{ define "main" }}
 <main class="o-main">
-    <h1>{{ .Title }}</h1>
+    <header class="c-blogpost__heading">
+        <h1>{{ .Title }}</h1>
+        <div class="c-blogpost__metas">
+            {{ .Params.author }} &bull; {{ .PublishDate.Format "2. 1. 2006" }} &bull; {{ i18n "readingTime" .ReadingTime }}
+        </div>
+    </header>
     <div class="c-blogpost">
         {{ .Content }}
     </div>

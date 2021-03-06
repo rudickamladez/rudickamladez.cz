@@ -1,0 +1,17 @@
+[home.title]
+other = "Rudická Mládež"
+[home.description]
+other = "Association of citizens interested in the folk traditions of the village of Rudice, culture and local customs"
+
+[wordCount]
+other = "This article has {{ .WordCount }} words."
+
+[readingTime]
+one = "One minute to read"
+other = "{{.Count}} minutes to read"
+
+[readArticle]
+other = "Read article"
+
+[translations]
+other = "Translations"

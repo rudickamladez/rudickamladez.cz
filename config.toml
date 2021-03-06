@@ -1,3 +1,48 @@
 baseURL = "https://rudickamladez.online/"
-languageCode = "cs-cz"
+defaultContentLanguage = "cs"
+defaultContentLanguageInSubdir = true
 title = "Rudická Mládež"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+[languages]
+  [languages.cs]
+    weight = 1
+    languageName = "Čeština"
+    languageCode = "cs"
+    [languages.cs.menu]
+        [[languages.cs.menu.main]]
+            url    = "/cs/"
+            name   = "Domů"
+            weight = 1
+        [[languages.cs.menu.main]]
+            url    = "/cs/about/"
+            name   = "O nás"
+            weight = 2
+        [[languages.cs.menu.main]]
+            url    = "/cs/blog/"
+            name   = "Blog"
+            weight = 3
+        [[languages.cs.menu.main]]
+            url    = "/cs/contact/"
+            name   = "Kontakt"
+            weight = 4
+  [languages.en]
+    weight = 2
+    languageName = "English"
+    languageCode = "en"
+    [languages.en.menu]
+        [[languages.en.menu.main]]
+            url    = "/en/"
+            name   = "Home"
+            weight = 1
+        [[languages.en.menu.main]]
+            url    = "/en/about/"
+            name   = "About"
+            weight = 2
+        [[languages.en.menu.main]]
+            url    = "/en/blog/"
+            name   = "Blog"
+            weight = 3
+        [[languages.en.menu.main]]
+            url    = "/en/contact/"
+            name   = "Contact"
+            weight = 4

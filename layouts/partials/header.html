@@ -1,14 +1,15 @@
 <header class="o-header">
     <nav class="o-nav">
         <ul class="o-nav__list">
-            <li class="o-nav__item"><a href="/" class="o-nav__link">Domů</a>
+            {{- $currentPage := . -}}
+            {{ range .Site.Menus.main -}}
+            <li class="o-nav__item">
+                {{/*  <a class="o-nav__link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | absLangURL }}">  */}}
+                <a class="o-nav__link" href="{{ .URL | absLangURL }}">
+                    {{ .Name }}
+                </a>
             </li>
-            <li class="o-nav__item"><a href="/o-nas/" class="o-nav__link">O nás</a>
-            </li>
-            <li class="o-nav__item"><a href="/blog/" class="o-nav__link">Blog</a>
-            </li>
-            <li class="o-nav__item"><a href="/kontakt/" class="o-nav__link">Kontakt</a>
-            </li>
+            {{- end }}
         </ul>
     </nav>
 </header>

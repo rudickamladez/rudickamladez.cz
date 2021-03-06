@@ -1,3 +1,0 @@
----
-title: Úvodní stránka
----

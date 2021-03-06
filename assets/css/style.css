@@ -78,6 +78,11 @@ main.home p {
     margin-right: 0;
 }
 
+.o-nav__item .active {
+    background-color: black;
+    color: whitesmoke;
+}
+
 .o-nav__link {
     text-decoration: none;
     padding: 0.75rem 0;
@@ -103,7 +108,6 @@ main.home p {
 
 .o-footer {
     text-align: center;
-    /* border-top: 1px solid #ddd; */
     padding: 1rem;
     width: 95%;
     max-width: 700px;
@@ -120,6 +124,14 @@ main.home p {
     color: #777;
     text-transform: uppercase;
     margin: 0.5rem 0;
+}
+
+.c-bloglist__header {
+    margin: 0 0 2rem 0;
+}
+
+.c-bloglist__header h1 {
+    margin: auto;
 }
 
 .c-bloglist__heading {
@@ -140,6 +152,22 @@ h2.c-bloglist__heading {
 
 .c-bloglist__link {
     color: #000;
+}
+
+.c-blogpost__metas {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.c-blogpost__heading {
+    font-weight: 700;
+}
+
+.c-blogpost__heading h1 {
+    margin: auto;
 }
 
 .text-center {
