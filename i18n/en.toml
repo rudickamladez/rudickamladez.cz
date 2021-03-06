@@ -13,6 +13,3 @@ other = "{{.Count}} minutes to read"
 
 [readArticle]
 other = "Read article"
-
-[translations]
-other = "Translations"

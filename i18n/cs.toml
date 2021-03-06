@@ -10,6 +10,3 @@ other = "{{.Count}} minut čtení"
 
 [readArticle]
 other = "Číst článek"
-
-[translations]
-other = "Překlady"
