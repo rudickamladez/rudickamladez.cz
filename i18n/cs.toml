@@ -6,9 +6,6 @@ other = "Sdružení občanů zajímající se o lidové tradice obce Rudice, kul
 
 [readingTime]
 one = "Minuta čtení"
-two = "2 minuty čtení"
-three = "3 minuty čtení"
-four = "4 minuty čtení"
 other = "{{.Count}} minut čtení"
 
 [readArticle]
