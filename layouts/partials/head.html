@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{- if .IsHome }}
-        <meta name="description" content="{{ .Site.Params.Description }}">
+        <meta name="description" content="{{ i18n "homeDescription" }}">
     {{- else if .Description }}
         <meta name="description" content="{{ .Description }}">
     {{- end }}
@@ -17,6 +17,7 @@
     
     {{ $style := resources.Get "css/open-sans.css" }}
     {{ $style = $style | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ $style := resources.Get "css/style.css" }}
     {{ $style = $style | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">

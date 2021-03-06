@@ -23,30 +23,56 @@ h1 {
     margin-bottom: 2rem;
 }
 
+p a {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
 main.home {
     flex-grow: 1;
     margin: 0px;
     background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/IMG_4726.jpg) center center;
     background-size: cover;
-    color: whitesmoke;
+    color: #fff;
     display: flex;
     flex-direction: column;
 }
 
-main.home h1 {
+main.home h1, main.notfound h1 {
     margin: auto;
     margin-bottom: 0px;
     font-size: 4.5rem;
 }
 
-main.home p {
+main.home p, main.notfound p {
     margin: auto;
     margin-top: 0px;
     max-width: 75%;
 }
 
+main.home a, main.notfound a{
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+main.notfound {
+    flex-grow: 1;
+    margin: 0px;
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/erik-mclean-bGWVhFY1gH0-unsplash.jpg) center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+main.notfound a {
+    color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
-    main.home p {
+    main.home p, main.notfound p {
         max-width: 85%;
     }
 }
@@ -80,7 +106,7 @@ main.home p {
 
 .o-nav__item .active {
     background-color: black;
-    color: whitesmoke;
+    color: #fff;
 }
 
 .o-nav__link {
