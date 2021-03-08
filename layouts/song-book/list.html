@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="o-main">
+    <div class="c-bloglist__header">
+        <h1>{{ i18n "songBook" }}</h1>
+        {{ .Content }}
+    </div>
+    <div class="c-bloglist">
+        {{ $pages := where .Site.RegularPages "Type" "song-book" }}
+        {{ range $pages.ByTitle }}
+        <div class="c-bloglist__item">
+            <h2 class="c-bloglist__heading">
+                <a href="{{ .RelPermalink }}" class="c-bloglist__headinglink">{{ .Title }}</a>
+            </h2>
+            <div class="c-bloglist__summary">
+                {{ .Summary }}
+            </div>
+            <a href="{{ .RelPermalink }}" class="c-bloglist__link">{{ i18n "openSong" }} →</a>
+        </div>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

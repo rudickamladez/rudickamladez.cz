@@ -10,3 +10,9 @@ other = "{{.Count}} minut čtení"
 
 [readArticle]
 other = "Číst článek"
+
+[songBook]
+other = "Zpěvník"
+
+[openSong]
+other = "Zazpívat si písničku"

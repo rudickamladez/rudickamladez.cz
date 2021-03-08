@@ -13,3 +13,9 @@ other = "{{.Count}} minutes to read"
 
 [readArticle]
 other = "Read article"
+
+[songBook]
+other = "Song book"
+
+[openSong]
+other = "Open song"
