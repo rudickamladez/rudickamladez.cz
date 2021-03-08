@@ -1,4 +1,9 @@
 [[redirects]]
+	from = "/zpevnik"
+	to = "/cs/song-book/"
+	status = 200
+
+[[redirects]]
 	from = "/en/*"
 	to = "/en/404/"
 	status = 404
@@ -12,8 +17,3 @@
 	from = "/*"
 	to = "/en/404/"
 	status = 404
-
-[[redirects]]
-	from = "/zpevnik"
-	to = "/cs/song-book/"
-	status = 200
