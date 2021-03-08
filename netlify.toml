@@ -12,3 +12,8 @@
 	from = "/*"
 	to = "/en/404/"
 	status = 404
+
+[[redirects]]
+	from = "/zpevnik"
+	to = "/cs/song-book/"
+	status = 200
