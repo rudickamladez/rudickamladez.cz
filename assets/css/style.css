@@ -43,12 +43,14 @@ main.home h1, main.notfound h1 {
     margin: auto;
     margin-bottom: 0px;
     font-size: 4.5rem;
+    text-shadow: 5px 5px 16px #000;
 }
 
 main.home p, main.notfound p {
     margin: auto;
     margin-top: 0px;
     max-width: 75%;
+    text-shadow: 2px 2px 5px #000;
 }
 
 main.home a, main.notfound a{
