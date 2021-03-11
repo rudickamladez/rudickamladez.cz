@@ -1,6 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/song-book.webmanifest">
     {{- if .IsHome }}
         <meta name="description" content="{{ i18n "homeDescription" }}">
     {{- else if .Description }}
@@ -19,4 +20,7 @@
     {{ $style = $style | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    {{ $script := resources.Get "js/a2hs.song-book.js" }}
+    {{ $script = $script | minify | fingerprint }}
+    <script src="{{ $script.RelPermalink }}"></script>
 </head>
