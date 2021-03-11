@@ -46,3 +46,21 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
             url    = "/en/contact/"
             name   = "Contact"
             weight = 4
+[params]
+    [[params.links]]
+        icon = "github"
+        title = "GitHub"
+        url = "https://github.com/HodyRC/"
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:info@rudickamladez.cz"
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://instagram.com/explore/tags/rudickamladez"
+    [[params.links]]
+        icon = "facebook"
+        title = "Facebook"
+        url = "https://facebook.com/rudicka.mladez/"
