@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="o-main contact">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="text-center links">
+        {{ range .Site.Params.links }}
+        <a href="{{ .url | safeURL }}" target="_blank" title="{{ .title }}"><i class="{{ .iconset | default " fab" }}
+                {{.iconorigin | default "fa" }}-{{ .icon }}"></i></a>
+        {{ end }}
+    </div>
+</main>
+{{ end }}
