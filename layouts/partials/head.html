@@ -1,24 +1,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ if eq .Section "song-book" }}
     <link rel="manifest" href="/song-book.webmanifest">
+    {{ else }}
+    <link rel="manifest" href="/site.webmanifest">
+    {{ end }}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    {{- if .IsHome }}
-        <meta name="description" content="{{ i18n "homeDescription" }}">
-    {{- else if .Description }}
-        <meta name="description" content="{{ .Description }}">
-    {{- end }}
+    {{ if .IsHome }}
+    <meta name="description" content="{{ i18n " homeDescription" }}">
+    {{ else if .Description }}
+    <meta name="description" content="{{ .Description }}">
+    {{ end }}
 
     <title>
         {{- if .IsHome }}
-            {{ .Site.Title }}
+        {{ .Site.Title }}
         {{- else }}
-            {{ .Title }} &middot; {{ .Site.Title }}
+        {{ .Title }} &middot; {{ .Site.Title }}
         {{- end }}
     </title>
 

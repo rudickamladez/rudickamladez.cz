@@ -1,7 +1,7 @@
 {
     "background_color": "#4c4c4c",
     "theme_color": "#ffffff",
-    "description": "Zpěvník Rudické Mládeže",
+    "description": "Rudická Mládež",
     "display": "fullscreen",
     "icons": [
         {
@@ -15,7 +15,7 @@
             "type": "image/png"
         }
     ],
-    "name": "Zpěvník Rudické Mládeže",
-    "short_name": "Zpěvník",
-    "start_url": "/cs/song-book/"
+    "name": "Rudická Mládež",
+    "short_name": "Rudická Mládež",
+    "start_url": "/"
 }
