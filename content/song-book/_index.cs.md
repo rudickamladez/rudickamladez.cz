@@ -3,4 +3,4 @@ title: Zpěvník
 noindex: true
 ---
 
-Tož vítajte ve zpěvníku.
+Tož vítaj ve zpěvníku, pořádně si zabéké.
