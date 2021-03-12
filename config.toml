@@ -47,6 +47,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
             name   = "Contact"
             weight = 4
 [params]
+    images = ["/images/IMG_4726.webp"]
+    [taxonomies]
+        series = "series"
     [[params.links]]
         icon = "github"
         title = "GitHub"
