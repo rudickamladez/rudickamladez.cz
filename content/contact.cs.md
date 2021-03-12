@@ -1,5 +1,6 @@
 ---
 title: Kontakt
+description: Pojďte se seznámit, nikdo z nás nekouše.
 layout: contact
 ---
 

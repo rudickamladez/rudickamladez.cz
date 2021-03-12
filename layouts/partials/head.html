@@ -12,19 +12,20 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    {{ if .IsHome }}
-    <meta name="description" content="{{ i18n " homeDescription" }}">
-    {{ else if .Description }}
+    {{ if .Description }}
     <meta name="description" content="{{ .Description }}">
     {{ end }}
-
-    <title>
-        {{- if .IsHome }}
-        {{ .Site.Title }}
-        {{- else }}
-        {{ .Title }} &middot; {{ .Site.Title }}
-        {{- end }}
-    </title>
+    {{ if .IsHome }}
+    <meta name="description" content="{{ i18n "homeDescription" }}">
+    <meta property="og:url" content="{{ .URL | absLangURL }}" />
+    <meta property="og:type" content="website" />
+    <title>{{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta property="og:image" content="{{ "/images/IMG_4726.webp" | absLangURL }}" />
+    {{ else }}
+    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+    {{ template "_internal/opengraph.html" . }}
+    {{ end }}
 
     {{ $style := resources.Get "css/style.css" }}
     {{ $style = $style | minify }}

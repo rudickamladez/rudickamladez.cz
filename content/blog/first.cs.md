@@ -1,5 +1,6 @@
 ---
 title: Nové stránky
+description: První článek! O čem asi bude?
 author: Lukáš Matuška
 publishDate: 2021-03-06T01:00:00+01:00
 

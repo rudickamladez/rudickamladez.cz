@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: Let contact us!
 layout: contact
 ---
 
