@@ -1,4 +1,9 @@
 [[redirects]]
+	from = "/pisnicky"
+	to = "https://nextcloud.rudickamladez.cz/s/QHX7dmyXEbN2fR4"
+	status = 301
+
+[[redirects]]
 	from = "/en/*"
 	to = "/en/404/"
 	status = 404
