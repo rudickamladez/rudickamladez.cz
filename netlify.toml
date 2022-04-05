@@ -9,6 +9,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/discord"
+	to = "https://discord.gg/U5Pd3Mu6nH"
+	status = 301
+
+[[redirects]]
 	from = "/en/*"
 	to = "/en/404/"
 	status = 404
