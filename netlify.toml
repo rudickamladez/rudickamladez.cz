@@ -9,6 +9,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/tance"
+	to = "https://nextcloud.rudickamladez.cz/s/WW6iJJYAer7G2sK"
+	status = 301
+
+[[redirects]]
 	from = "/discord"
 	to = "https://discord.gg/U5Pd3Mu6nH"
 	status = 301
