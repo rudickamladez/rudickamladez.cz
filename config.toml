@@ -1,7 +1,7 @@
 baseURL = "https://rudickamladez.cz/"
 defaultContentLanguage = "cs"
 defaultContentLanguageInSubdir = true
-title = "Rudická Mládež"
+title = "Rudická mládež"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [languages]
   [languages.cs]
