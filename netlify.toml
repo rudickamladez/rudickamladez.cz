@@ -14,6 +14,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/zpevnik"
+	to = "https://www.overleaf.com/read/phzqcjgpfxxd"
+	status = 301
+
+[[redirects]]
 	from = "/discord"
 	to = "https://discord.gg/U5Pd3Mu6nH"
 	status = 301
