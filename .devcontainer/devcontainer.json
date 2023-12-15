@@ -1,0 +1,41 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.128.0/containers/hugo
+{
+	"name": "Hugo",
+	// "image": "gohugoio/hugo:latest",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			// "settings": {
+			// 	"terminal.integrated.shell.linux": "/bin/zsh"
+			// },
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"rusnasonov.vscode-hugo",
+				"budparr.language-hugo-vscode",
+				"eliostruyf.vscode-hugo-themer",
+				"akmittal.hugofy",
+				"kaellarkin.hugo-shortcode-syntax",
+				"bungcip.better-toml",
+				"davidanson.vscode-markdownlint",
+				"tamasfe.even-better-toml"
+			]
+		}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		1313
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "hugo server --disableFastRender",
+	// Uncomment to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}

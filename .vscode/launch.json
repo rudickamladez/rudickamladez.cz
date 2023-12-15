@@ -1,0 +1,12 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Chrome with hugo website",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:1313/"
+    }
+  ]
+}
