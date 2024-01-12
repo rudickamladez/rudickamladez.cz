@@ -198,6 +198,11 @@ h2.c-bloglist__heading {
     margin: auto;
 }
 
+.c-blogpost img {
+    width: 100%;
+    margin: 1rem auto;
+}
+
 .text-center {
     text-align: center;
 }
