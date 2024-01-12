@@ -29,4 +29,20 @@ It's quite simple.
     git checkout -b new-branch
     ```
 
-1. Enjoy managing content
+1. Now you can open your web browser with local [environment](http://localhost:1313/).
+
+1. Edit some stuff and check it in browser.
+
+1. Create Git commit.
+
+    ```shell
+    git commit -m "HERE DESCRIBE YOUR CHANGES"
+    ```
+
+1. After some commits you can push the branch
+
+    ```shell
+    git push origin new-branch
+    ```
+
+1. When you check deploy preview on Netlify create a Pull Request.
