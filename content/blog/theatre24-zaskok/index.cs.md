@@ -8,7 +8,7 @@ publishDate: 2024-01-12T01:14:00+01:00
 Milí přátelé Divadla Járy Cimrmana,
 
 s&nbsp;radostí Vám oznamujeme, že&nbsp;se&nbsp;blíží derniéra divadelní hry Záskok.
-Tato unikátní divadelní podívaná, plná smíchu a&nbsp;šarmu, se&nbsp;stane nezapomenutelným zážitkem pro všechny milovníky českého humoru.
+Tato unikátní divadelní podívaná plná smíchu a&nbsp;šarmu se&nbsp;stane nezapomenutelným zážitkem pro všechny milovníky českého humoru.
 
 Datum k&nbsp;zaškrtnutí ve&nbsp;Vašem kalendáři je **27.&nbsp;ledna&nbsp;2024**.
 Vězte zároveň, že v&nbsp;tento den se konají hned **2&nbsp;představení za&nbsp;sebou**!
