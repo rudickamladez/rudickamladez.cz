@@ -203,6 +203,11 @@ h2.c-bloglist__heading {
     margin: 1rem auto;
 }
 
+.c-blogpost p {
+    margin: auto;
+    margin-top: 1rem;
+}
+
 .text-center {
     text-align: center;
 }
