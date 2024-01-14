@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Open%20Sans&family=Caveat);
+
 html {
     width: 100%;
     min-height: 100%;
@@ -18,42 +20,144 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Caveat, 'Open Sans', sans-serif;
+}
+
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
 }
 
-p a {
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-    color: #000;
+p {
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid #000;
+        color: #000;
+    }
 }
 
-main.home {
+section {
+    width: 100%;
+    min-height: 15vh;
+    flex-grow: 1;
+
+    h2 {
+        font-size: 4em;
+        /* text-align: center; */
+        /* margin: 10px auto; */
+    }
+
+    h3 {
+        font-size: 3.5em;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .event {
+        display: grid;
+        max-width: 55vw;
+        margin: 25px auto;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "title photo"
+            "description photo"
+            "link photo";
+
+        &:nth-child(2n) {
+            grid-template-columns: 2fr 3fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "photo title"
+                "photo description"
+                "photo link";
+        }
+
+        h2 {
+            grid-area: title;
+        }
+
+        p {
+            grid-area: description;
+            text-align: justify;
+            margin: 0 auto auto 0;
+        }
+
+        a {
+            grid-area: link;
+        }
+
+        img {
+            grid-area: photo;
+            justify-self: stretch;
+            width: 95%;
+            height: 95%;
+            object-fit: cover;
+            max-height: 256px;
+            max-width: 95%;
+            margin: auto 0 auto auto;
+            border-radius: 2.5px;
+        }
+
+        &:nth-child(2n) img {
+            margin: 15px auto auto 0;
+        }
+    }
+
+    div.container {
+        margin: 3vh auto;
+        max-width: 55vw;
+    }
+}
+
+main.home,
+main.about {
     flex-grow: 1;
     margin: 0px;
-    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/IMG_4726.jpg) center center;
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/IMG_4726.jpg) center 20%;
     background-size: cover;
     color: #fff;
     display: flex;
     flex-direction: column;
+    min-height: 33vh;
 }
 
-main.home h1, main.notfound h1 {
+main.home h1,
+main.about h1,
+main.notfound h1 {
     margin: auto;
     margin-bottom: 0px;
-    font-size: 4.5rem;
+    font-size: 7rem;
     text-shadow: 5px 5px 16px #000;
 }
 
-main.home p, main.notfound p {
+main.home p,
+main.notfound p {
     margin: auto;
     margin-top: 0px;
     max-width: 75%;
     text-shadow: 2px 2px 5px #000;
 }
 
-main.home a, main.notfound a{
+main.about p {
+    margin: auto;
+    margin-top: 0px;
+    max-width: 55vw;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+main.home a,
+main.notfound a {
     text-decoration: none;
     border-bottom: 1px solid #fff;
     color: #fff;
@@ -74,7 +178,9 @@ main.notfound a {
 }
 
 @media only screen and (max-width: 600px) {
-    main.home p, main.notfound p {
+
+    main.home p,
+    main.notfound p {
         max-width: 85%;
     }
 }
@@ -121,7 +227,8 @@ main.notfound a {
     transition: 0.2s ease background-color, 0.2s ease color;
 }
 
-.o-nav__link:hover, .o-nav__link--active {
+.o-nav__link:hover,
+.o-nav__link--active {
     background-color: black;
     color: #fff;
 }
@@ -206,8 +313,4 @@ h2.c-bloglist__heading {
 .c-blogpost p {
     margin: auto;
     margin-top: 1rem;
-}
-
-.text-center {
-    text-align: center;
 }
