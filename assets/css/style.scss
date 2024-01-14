@@ -59,6 +59,7 @@ section {
         &:first-child {
             margin-top: 2.5vh;
         }
+
         max-width: 55vw;
         margin: 1vh auto;
     }
@@ -85,6 +86,28 @@ section {
                 "photo title"
                 "photo description"
                 "photo link";
+        }
+
+        @media screen and (max-width:900px) {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-areas:
+                "title"
+                "photo"
+                "description"
+                "link"
+            ;
+
+            &:nth-child(2n) {
+                grid-template-columns: auto;
+                grid-template-rows: auto auto 1fr auto;
+                grid-template-areas:
+                    "title"
+                    "photo"
+                    "description"
+                    "link"
+                ;
+            }
         }
 
         h2 {
