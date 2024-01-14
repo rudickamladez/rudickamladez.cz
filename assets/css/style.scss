@@ -55,6 +55,14 @@ section {
         font-size: 3.5em;
     }
 
+    &>p {
+        &:first-child {
+            margin-top: 2.5vh;
+        }
+        max-width: 55vw;
+        margin: 1vh auto;
+    }
+
     p {
         text-align: justify;
     }
