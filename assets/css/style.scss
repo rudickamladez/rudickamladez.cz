@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css2?family=Open%20Sans&family=Caveat);
+
+html {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Caveat, 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid #000;
+        color: #000;
+    }
+}
+
+section {
+    width: 100%;
+    min-height: 15vh;
+    flex-grow: 1;
+
+    h2 {
+        font-size: 4em;
+    }
+
+    h3 {
+        font-size: 3.5em;
+    }
+
+    &>p {
+        &:first-child {
+            margin-top: 2.5vh;
+        }
+
+        max-width: 55vw;
+        margin: 1vh auto;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .event {
+        display: grid;
+        max-width: 55vw;
+        margin: 25px auto;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "title photo"
+            "description photo"
+            "link photo";
+
+        &:nth-child(2n) {
+            grid-template-columns: 2fr 3fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "photo title"
+                "photo description"
+                "photo link";
+        }
+
+        @media screen and (max-width:900px) {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-areas:
+                "title"
+                "photo"
+                "description"
+                "link"
+            ;
+
+            &:nth-child(2n) {
+                grid-template-columns: auto;
+                grid-template-rows: auto auto 1fr auto;
+                grid-template-areas:
+                    "title"
+                    "photo"
+                    "description"
+                    "link"
+                ;
+            }
+        }
+
+        h2 {
+            grid-area: title;
+        }
+
+        p {
+            grid-area: description;
+            text-align: justify;
+            margin: 0 auto auto 0;
+        }
+
+        a {
+            grid-area: link;
+        }
+
+        img {
+            grid-area: photo;
+            justify-self: stretch;
+            width: 95%;
+            height: 95%;
+            object-fit: cover;
+            max-height: 256px;
+            max-width: 95%;
+            margin: auto 0 auto auto;
+            border-radius: 2.5px;
+        }
+
+        &:nth-child(2n) img {
+            margin: 15px auto auto 0;
+        }
+    }
+
+    div.container {
+        margin: 3vh auto;
+        max-width: 55vw;
+    }
+}
+
+main.home,
+main.about {
+    flex-grow: 1;
+    margin: 0px;
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/IMG_4726.jpg) center 20%;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 33vh;
+}
+
+main.home h1,
+main.about h1,
+main.notfound h1 {
+    margin: auto;
+    margin-bottom: 0px;
+    font-size: 7rem;
+    text-shadow: 5px 5px 16px #000;
+}
+
+main.home p,
+main.notfound p {
+    margin: auto;
+    margin-top: 0px;
+    max-width: 75%;
+    text-shadow: 2px 2px 5px #000;
+}
+
+main.about p {
+    margin: auto;
+    margin-top: 0px;
+    max-width: 55vw;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+main.home a,
+main.notfound a {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+main.notfound {
+    flex-grow: 1;
+    margin: 0px;
+    background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/erik-mclean-bGWVhFY1gH0-unsplash.jpg) center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    main.home p,
+    main.notfound p {
+        max-width: 85%;
+    }
+}
+
+.o-header {
+    width: 100%;
+    margin: 0;
+}
+
+.o-nav {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.o-nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.o-nav__item {
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.o-nav__item:last-child {
+    margin-right: 0;
+}
+
+.o-nav__item .active {
+    background-color: black;
+    color: #fff;
+}
+
+.o-nav__link {
+    text-decoration: none;
+    padding: 0.75rem 0;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    color: black;
+    transition: 0.2s ease background-color, 0.2s ease color;
+}
+
+.o-nav__link:hover,
+.o-nav__link--active {
+    background-color: black;
+    color: #fff;
+}
+
+.o-main {
+    width: 95%;
+    max-width: 700px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.o-footer {
+    text-align: center;
+    padding: 1rem;
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.c-bloglist__item {
+    margin-bottom: 2rem;
+}
+
+.c-bloglist__metas {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+.c-bloglist__header {
+    margin: 0 0 2rem 0;
+}
+
+.c-bloglist__header h1 {
+    margin: auto;
+}
+
+.c-bloglist__heading {
+    font-weight: 700;
+}
+
+h2.c-bloglist__heading {
+    font-size: 2rem;
+}
+
+.c-bloglist__headinglink {
+    color: #000;
+}
+
+.c-bloglist__summary {
+    margin-bottom: 0.5rem;
+}
+
+.c-bloglist__link {
+    color: #000;
+}
+
+.c-blogpost__metas {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.c-blogpost__heading {
+    font-weight: 700;
+}
+
+.c-blogpost__heading h1 {
+    margin: auto;
+}
+
+.c-blogpost img {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.c-blogpost p {
+    margin: auto;
+    margin-top: 1rem;
+}

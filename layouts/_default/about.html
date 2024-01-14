@@ -1,0 +1,25 @@
+{{ define "content" }}
+<main class="about">
+    <h1>{{ .Params.title }}</h1>
+    <p>{{ .Params.description }}</p>
+</main>
+<section>
+    {{ .Content }}
+</section>
+<section>
+    {{ range .Params.events }}
+    <div class="event">
+        <h2>{{ .heading }}</h2>
+        <p>{{ .text }}</p>
+        
+        {{ if .img }}
+        <img src="images/{{ .img.src }}" alt="{{ .img.alt }}">
+        {{ end }}
+
+        {{ if .link }}
+        <a href="{{ .link.url }}" target="_blank">{{ .link.text }} →</a>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>
+{{ end }}
