@@ -4,6 +4,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/whatsapp"
+	to = "https://chat.whatsapp.com/BVYFAlHgAbm9oQWxtjXOzo"
+	status = 301
+
+[[redirects]]
 	from = "/fotke"
 	to = "https://drive.google.com/drive/folders/1S42cw7BduRQGLSdRuGpulXXae-7Z6nEd?usp=sharing"
 	status = 301
