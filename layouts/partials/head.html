@@ -17,7 +17,7 @@
         {{- end }}
     </title>
 
-    {{ $style := resources.Get "css/style.css" }}
+    {{ $style := resources.Get "css/style.scss" | toCSS }}
     {{ $style = $style | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
