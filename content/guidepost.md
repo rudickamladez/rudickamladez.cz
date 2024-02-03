@@ -1,4 +1,6 @@
-# Rozcestník
+---
+title: Rozcestník
+---
 
 Odkazy na&nbsp;spolkové věci přehledně:
 
