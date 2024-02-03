@@ -49,6 +49,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/rozcestnik"
+	to = "/cs/guidepost"
+	status = 301
+
+[[redirects]]
 	from = "/en/*"
 	to = "/en/404/"
 	status = 404
