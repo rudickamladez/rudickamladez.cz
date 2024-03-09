@@ -2,7 +2,7 @@ baseURL = "https://rudickamladez.cz/"
 defaultContentLanguage = "cs"
 defaultContentLanguageInSubdir = true
 title = "Rudická mládež"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 googleAnalytics = "G-W0QETZEWLJ"
 [languages]
   [languages.cs]

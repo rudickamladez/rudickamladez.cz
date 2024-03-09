@@ -6,7 +6,7 @@ Odkazy na&nbsp;spolkové věci přehledně:
 
 - [Fotky](/fotke)
 <!-- - [Kontakty]()\ -->
-- [Kalendář](/kalendar)
+- [Kalendář](./calendar)
 - [Písničky](/pisnicky)
 - [Tance](/tance) – Fotky a&nbsp;videa tanců
 - [WhatsApp](/whatsapp) – Hlavní komunikační kanál
