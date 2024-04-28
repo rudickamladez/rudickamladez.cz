@@ -29,6 +29,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/hzv"
+	to = "https://forms.gle/LaGxhPHFU8BMcBzb7"
+	status = 301
+
+[[redirects]]
 	from = "/pzv"
 	to = "https://forms.gle/4scnUt2smMon7b6H8"
 	status = 301
