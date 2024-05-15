@@ -2,7 +2,7 @@
 title: Contact
 ---
 
-You can contact us on [e-mail](mailto:info@rudickamladez.cz) or our [Facebook](https://www.facebook.com/rudickamladez.cz/).
+You can contact us on [e-mail](mailto:info@rudickamladez.cz) or our [Facebook](https://www.facebook.com/rudickamladez.cz/). Or you can try it on [Instagram](https://www.instagram.com/rudickamladez.cz/).
 \
 \
 Rudická mládež, z.s.\
