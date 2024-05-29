@@ -22,4 +22,4 @@ Letošní zastávky:
 1. zastávka&nbsp;– [Svobodovi](https://maps.app.goo.gl/boWPSCBCLWpaoHXw8)
 1. zastávka&nbsp;– [Koneční](https://maps.app.goo.gl/gKms9i2DUQAspzS97)
 
-{{< festive-parade24-google-maps >}}
+![Mapa hodového průvodu 2024](./images/rudice-mapa-hodoveho-pruvodu-2024.png)
