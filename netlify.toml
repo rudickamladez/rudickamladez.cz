@@ -39,8 +39,8 @@
 	status = 301
 
 [[redirects]]
-	from = "/gzp"
-	to = "https://forms.gle/UcEdcuFb9M4tDvVK7"
+	from = "/gzv24"
+	to = "https://forms.gle/QDRh8de244ADU8T76"
 	status = 301
 
 [[redirects]]
@@ -56,6 +56,11 @@
 [[redirects]]
 	from = "/rozcestnik"
 	to = "/cs/guidepost"
+	status = 301
+
+[[redirects]]
+	from = "/zv" # Zpětná vazba
+	to = "https://forms.gle/QDRh8de244ADU8T76"
 	status = 301
 
 [[redirects]]
