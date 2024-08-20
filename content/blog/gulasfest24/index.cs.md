@@ -25,7 +25,7 @@ Pokud máte otázky ohledně akce, nebo chcete vědět více, neváhejte nás ko
 
 ## Chci soutěžit
 
-Pravidla pro soutěžící naleznete [zde](https://docs.google.com/document/d/1Hlfn9RizXWt5hStGyIga97jqSF0eFSboG83drsPYhH8/view).
+Pravidla pro soutěžící naleznete [zde](https://drive.google.com/file/d/1TMFQb0xAU_K-QNdof2y5CLsfX0bhGke4/view).
 Týmy přihlašujte na [gulasfest@rudickamladez.cz](mailto:gulasfest@rudickamladez.cz?subject=Přihláška%20‒%20Rudický%20gulášfest%202024)
 
 ![Plakát](images/poster.jpg)
