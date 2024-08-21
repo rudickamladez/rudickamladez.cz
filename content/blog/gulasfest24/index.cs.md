@@ -16,8 +16,8 @@ Připraven bude skákací hrad, kde se děti můžou vydovádět.
 
 ## Kdy a&nbsp;kde?
 
-Kdy: 14. září 2024 od 13:30 hodin
-Kde: Sad pod Lipou, Rudice
+Kdy: 14. září 2024 od 13:30 hodin \
+Kde: Sad pod Lipou, Rudice \
 Přijďte s rodinou, přáteli, sousedy a&nbsp;užijte si skvělý den plný chutí a&nbsp;radosti. Těšíme se na vás na Rudickém gulášfestu 2024!
 
 Pokud máte otázky ohledně akce, nebo chcete vědět více, neváhejte nás kontaktovat. Rudice je připravena vás přivítat s otevřenou náručí a&nbsp;gulášem, na který jen tak nezapomenete!
