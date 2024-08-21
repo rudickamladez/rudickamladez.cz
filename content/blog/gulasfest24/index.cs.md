@@ -26,4 +26,8 @@ Pokud máte otázky ohledně akce, nebo chcete vědět více, neváhejte nás ko
 
 Týmy přihlašujte a případné dotazy posílejte na [gulasfest@rudickamladez.cz](mailto:gulasfest@rudickamladez.cz?subject=Přihláška%20‒%20Rudický%20gulášfest%202024)
 
+## Zpětná vazba
+
+Vaše názory a&nbsp;pocity nám můžete zasílat pomocí toho [formuláře](https://forms.gle/MPK7on1awET3qTEm7).
+
 ![Plakát](images/poster.jpg)
