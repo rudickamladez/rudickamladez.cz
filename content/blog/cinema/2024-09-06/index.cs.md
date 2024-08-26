@@ -4,8 +4,8 @@ author: Lukáš Matuška
 publishDate: 2024-08-26T00:00:00+02:00
 ---
 
-Léto je tady a&nbsp;s&nbsp;ním i&nbsp;rudické kino! 🎬
-Srdečně vás zveme na naši již druhou projekci, která opět proběhne v&nbsp;krásném prostředí [Sadu pod Lipou](https://maps.app.goo.gl/PkK9S2EBhhUzFXkR6), nebojte v případě lijáku, promítáme v&nbsp;[dělňáku](https://maps.app.goo.gl/fRbT5FhzffHoAYcj7)!
+Srdečně vás zveme na naši již druhou projekci, která opět proběhne v&nbsp;krásném prostředí [Sadu pod Lipou](https://maps.app.goo.gl/PkK9S2EBhhUzFXkR6).
+Nebojte v případě lijáku, promítáme v&nbsp;[dělňáku](https://maps.app.goo.gl/fRbT5FhzffHoAYcj7)!
 Tentokrát jsme pro vás připravili film VLNY. 🎙🌊📻
 
 Datum: 6.&nbsp;9.&nbsp;2024 📅
