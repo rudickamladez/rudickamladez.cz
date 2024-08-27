@@ -8,6 +8,8 @@ Srdečně vás zveme na naši již druhou projekci, která opět proběhne v&nbs
 Nebojte v případě lijáku, promítáme v&nbsp;[dělňáku](https://maps.app.goo.gl/fRbT5FhzffHoAYcj7)!
 Tentokrát jsme pro vás připravili film VLNY. 🎙🌊📻
 
+Vzhledem k&nbsp;podmínkám distributora pro daný film, musíme protentokrát bohužel vybírat fixní vstupné 140&nbsp;Kč. 🎟 📽
+Děkujeme za pochopení a těšíme se na Vás! 💙
 Datum: 6.&nbsp;9.&nbsp;2024 📅
 
 Abychom vám večer ještě více zpříjemnili, je pro vás zajištěno občerstvení – těšit se můžete na něco dobrého k&nbsp;snědku i&nbsp;pití. 🍿🍻
