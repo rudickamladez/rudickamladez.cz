@@ -1,90 +1,65 @@
 [[redirects]]
-	from = "/pisnicky"
-	to = "https://drive.google.com/drive/folders/1hh5T2wfc330zPlNt2LGeSpf4LnclOOYl?usp=sharing"
-	status = 301
-
-[[redirects]]
-	from = "/whatsapp"
-	to = "https://chat.whatsapp.com/BVYFAlHgAbm9oQWxtjXOzo"
-	status = 301
-
-[[redirects]]
-	from = "/fotke"
-	to = "https://drive.google.com/drive/folders/1S42cw7BduRQGLSdRuGpulXXae-7Z6nEd?usp=sharing"
-	status = 301
-
-[[redirects]]
-	from = "/tance"
-	to = "https://drive.google.com/drive/folders/1kquw7VgkNlur05u4lxjXHxih_9Yllzmj"
-	status = 301
-
-[[redirects]]
-	from = "/zpevnik"
-	to = "https://www.overleaf.com/read/phzqcjgpfxxd"
-	status = 301
-
-[[redirects]]
-	from = "/kalendar"
-	to = "/cs/guidepost/calendar/"
-	status = 301
-
-[[redirects]]
-	from = "/hzv"
-	to = "https://forms.gle/LaGxhPHFU8BMcBzb7"
-	status = 301
-
-[[redirects]]
-	from = "/pzv"
-	to = "https://forms.gle/4scnUt2smMon7b6H8"
-	status = 301
-
-[[redirects]]
-	from = "/gzv24"
-	to = "https://forms.gle/QDRh8de244ADU8T76"
-	status = 301
-
-[[redirects]]
-	from = "/gzp23"
-	to = "https://forms.gle/UcEdcuFb9M4tDvVK7"
-	status = 301
-
-[[redirects]]
-	from = "/tricka"
-	to = "https://forms.gle/7N8L48ajSCiGgv4w8"
-	status = 301
-
-[[redirects]]
-	from = "/discord"
-	to = "https://discord.gg/U5Pd3Mu6nH"
-	status = 301
-
-[[redirects]]
-	from = "/rozcestnik"
+	from = "/rozcestnik" # Signpost for members of the association
 	to = "/cs/guidepost"
 	status = 301
 
 [[redirects]]
-	from = "/zv" # Zpětná vazba
+	from = "/whatsapp" # WhatsApp ‒ Main communication channel
+	to = "https://chat.whatsapp.com/BVYFAlHgAbm9oQWxtjXOzo"
+	status = 301
+
+[[redirects]]
+	from = "/zv" # Feedback
 	to = "https://forms.gle/oKzx2fusByssfq177"
 	status = 301
 
 [[redirects]]
-	from = "/cenik" # Ceník
+	from = "/cenik" # Price list
 	to = "https://drive.google.com/file/d/1-TPgnAluYgtYP1lWZrH8wPWa0dSwR1Mx/view"
 	status = 301
 
 [[redirects]]
-	from = "/en/*"
+	from = "/fotke" # Photos
+	to = "https://drive.google.com/drive/folders/1S42cw7BduRQGLSdRuGpulXXae-7Z6nEd?usp=sharing"
+	status = 301
+
+[[redirects]]
+	from = "/tance" # Videos of our dances
+	to = "https://drive.google.com/drive/folders/1kquw7VgkNlur05u4lxjXHxih_9Yllzmj"
+	status = 301
+
+[[redirects]]
+	from = "/zpevnik" # Songbook
+	to = "https://www.overleaf.com/read/phzqcjgpfxxd"
+	status = 301
+
+[[redirects]]
+	from = "/kalendar" # Calendar
+	to = "/cs/guidepost/calendar/"
+	status = 301
+
+[[redirects]]
+	from = "/pisnicky" # Songs
+	to = "https://drive.google.com/drive/folders/1hh5T2wfc330zPlNt2LGeSpf4LnclOOYl?usp=sharing"
+	status = 301
+
+[[redirects]]
+	from = "/discord" # Discord (almost dead)
+	to = "https://discord.gg/U5Pd3Mu6nH"
+	status = 301
+
+[[redirects]]
+	from = "/en/*" # English ‒ Not found
 	to = "/en/404/"
 	status = 404
 
 [[redirects]]
-	from = "/cs/*"
+	from = "/cs/*" # Czech ‒ Not found
 	to = "/cs/404/"
 	status = 404
 
 [[redirects]]
-	from = "/*"
+	from = "/*" # General ‒ Not found
 	to = "/cs/404/"
 	status = 404
 
@@ -110,3 +85,4 @@
 
 [context.next.environment]
   HUGO_ENABLEGITINFO = "true"
+
