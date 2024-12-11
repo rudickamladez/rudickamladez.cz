@@ -4,6 +4,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/r" # Shoortcut for signpost for members of the association
+	to = "/cs/guidepost"
+	status = 301
+
+[[redirects]]
 	from = "/whatsapp" # WhatsApp ‒ Main communication channel
 	to = "https://chat.whatsapp.com/BVYFAlHgAbm9oQWxtjXOzo"
 	status = 301
