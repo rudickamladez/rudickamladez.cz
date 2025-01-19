@@ -9,6 +9,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/cem" # Shortcut for video call of internal group "Event Makers"
+	to = "https://meet.lukasmatuska.cz/rm-event_makers"
+	status = 301
+
+[[redirects]]
 	from = "/whatsapp" # WhatsApp ‒ Main communication channel
 	to = "https://chat.whatsapp.com/BVYFAlHgAbm9oQWxtjXOzo"
 	status = 301
