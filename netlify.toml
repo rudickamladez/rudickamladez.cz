@@ -4,7 +4,7 @@
 	status = 301
 
 [[redirects]]
-	from = "/r" # Shoortcut for signpost for members of the association
+	from = "/r" # Shortcut for signpost for members of the association
 	to = "/cs/guidepost"
 	status = 301
 
