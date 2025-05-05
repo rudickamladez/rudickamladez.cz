@@ -11,5 +11,6 @@ Rudice 7\
 \
 **ID:** 07834047\
 **Data box:** hqiiyza\
+**Bank account:** 2403180893 / 2010\
 **E-mail**: <info@rudickamladez.cz>\
 **GitHub**: [https://github.com/rudickamladez/](https://github.com/rudickamladez/)

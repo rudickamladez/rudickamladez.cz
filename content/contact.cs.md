@@ -11,5 +11,6 @@ Rudice 7\
 \
 **IČ:** 07834047\
 **Datová schránka:** hqiiyza\
+**Bankovní účet:** 2403180893 / 2010\
 **E-mail**: <info@rudickamladez.cz>\
 **GitHub**: [https://github.com/rudickamladez/](https://github.com/rudickamladez/)
