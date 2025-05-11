@@ -20,7 +20,6 @@
 				"eliostruyf.vscode-hugo-themer",
 				"akmittal.hugofy",
 				"kaellarkin.hugo-shortcode-syntax",
-				"bungcip.better-toml",
 				"davidanson.vscode-markdownlint",
 				"tamasfe.even-better-toml"
 			]
