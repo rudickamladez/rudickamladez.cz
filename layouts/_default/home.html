@@ -1,6 +1,13 @@
 {{ define "main" }}
 <main class="home">
-    <h1 class="text-center">{{ i18n "homeTitle" }}</h1>
-    <p class="text-center">{{ i18n "homeDescription" }}</p>
+    <h1>{{ i18n "homeTitle" }}</h1>
+    <div class="description">
+        <p class="text-center">{{ i18n "homeDescription" }}</p>
+        {{ if lt (now) (time "2025-06-14T17:00:00+02:00") }}
+        <a href="./blog/festive-parade25/" class="button-link">
+            {{ i18n "festiveParade" }}
+        </a>
+        {{ end }}
+    </div>
 </main>
 {{ end }}

@@ -13,3 +13,6 @@ other = "{{.Count}} minutes to read"
 
 [readArticle]
 other = "Read article"
+
+[festiveParade]
+other = "Festive parade 🗺️"
