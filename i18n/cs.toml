@@ -10,3 +10,6 @@ other = "{{.Count}} minut čtení"
 
 [readArticle]
 other = "Číst článek"
+
+[festiveParade]
+other = "Hodový průvod 🗺️"

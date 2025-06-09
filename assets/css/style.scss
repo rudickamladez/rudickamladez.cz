@@ -60,8 +60,7 @@ main.home {
     background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/IMG_4726.jpg) center center;
     background-size: cover;
     color: #fff;
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 
 main.home h1,
@@ -70,14 +69,38 @@ main.notfound h1 {
     margin-bottom: 0px;
     font-size: 4.5rem;
     text-shadow: 5px 5px 16px #000;
+    text-align: center;
 }
 
-main.home p,
+main.home div.description {
+    margin: 0 auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main.home div.description p,
 main.notfound p {
     margin: auto;
     margin-top: 0px;
     max-width: 75%;
     text-shadow: 2px 2px 5px #000;
+}
+
+main.home .button-link {
+    display: block;
+    margin: 15px auto 0 auto;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px #000;
+    transition: background-color 0.3s ease;
+}
+
+main.home .button-link:hover {
+    background-color: #fff;
 }
 
 main.home a,
