@@ -14,8 +14,8 @@ Kvíz proběhne v&nbsp;pohodové atmosféře v&nbsp;[Sadu pod Lipou](https://map
 
 ## Jak to bude probíhat? 🧐
 
-- Hrajeme v&nbsp;**týmech o&nbsp;2 – 8 lidech**.
-- Přihlášení je nutné předem – stačí vyplnit [formulář](https://forms.gle/BbbECbQsECM3AZ6Q7).
+- Hrajeme v&nbsp;**týmech o&nbsp;2–8 lidech**.
+- Přihlášení je nutné předem&thinsp;‒&thinsp;stačí vyplnit [formulář](https://forms.gle/BbbECbQsECM3AZ6Q7).
 - Témata otázek budou pestrá: **kultura, příroda, film, historie i&nbsp;trocha místních reálií**.
 - Pro vítězný tým bude připravená **malá odměna**. 🎁
 
