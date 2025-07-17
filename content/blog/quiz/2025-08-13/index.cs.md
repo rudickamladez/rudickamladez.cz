@@ -1,7 +1,7 @@
 ---
 title: Rudický kvíz ‒ hrajeme před filmem Džob!
 author: Lukáš Matuška
-publishDate: 2025-07-17T20:00:00+02:00
+publishDate: 2025-07-16T20:00:00+02:00
 ---
 
 Přijďte si užít letní večer plný zábavy nejen s&nbsp;filmem, ale i&nbsp;s trochou přemýšlení a&nbsp;soutěžení! 🎉🧠📚
