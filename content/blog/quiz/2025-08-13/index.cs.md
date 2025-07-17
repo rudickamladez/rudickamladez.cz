@@ -1,5 +1,5 @@
 ---
-title: První Rudický kvíz ‒ hrajeme před filmem Džob!
+title: Rudický kvíz ‒ hrajeme před filmem Džob!
 author: Lukáš Matuška
 publishDate: 2025-07-17T20:00:00+02:00
 ---
