@@ -8,8 +8,8 @@ Srdečně vás zveme na naši letošní třetí projekci, která opět proběhne
 Nebojte v případě lijáku, promítáme v&nbsp;[dělňáku](https://maps.app.goo.gl/fRbT5FhzffHoAYcj7)!
 Tentokrát jsme pro vás připravili film Džob. 👷🏻‍♂️👔🧰
 
+Vstupné dobrovolné. 🎟 📽 \
 Datum: 13.&nbsp;8.&nbsp;2025 📅
-Vstupné dobrovolné. 🎟 📽
 
 Abychom vám večer ještě více zpříjemnili, je pro vás zajištěno občerstvení – těšit se můžete na něco dobrého k&nbsp;snědku i&nbsp;pití. 🍿🍻
 
