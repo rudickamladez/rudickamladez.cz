@@ -1,7 +1,7 @@
 ---
 title: Rudické kino ‒ Džob
 author: Lukáš Matuška
-publishDate: 2024-07-16T20:00:00+02:00
+publishDate: 2025-07-16T20:00:00+02:00
 ---
 
 Srdečně vás zveme na naši letošní třetí projekci, která opět proběhne v&nbsp;krásném prostředí [Sadu pod Lipou](https://maps.app.goo.gl/PkK9S2EBhhUzFXkR6).
