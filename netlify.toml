@@ -29,6 +29,11 @@
 	status = 301
 
 [[redirects]]
+	from = "/kr" # Quiz registration
+	to = "https://forms.gle/BbbECbQsECM3AZ6Q7"
+	status = 301
+
+[[redirects]]
 	from = "/fotke" # Photos
 	to = "https://drive.google.com/drive/folders/1S42cw7BduRQGLSdRuGpulXXae-7Z6nEd?usp=sharing"
 	status = 301
