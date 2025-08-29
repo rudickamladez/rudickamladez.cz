@@ -7,6 +7,8 @@ summary: S radostí oznamujeme, že i letos vás čekají večery pod širým ne
 
 S radostí oznamujeme, že i letos vás čekají večery pod širým nebem s dobrým filmem a ještě lepší atmosférou. 🌛
 
+<!--more-->
+
 Zapište si do kalendáře následující termíny: 📅
 
 - 25.&nbsp;června&nbsp;2025

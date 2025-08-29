@@ -6,6 +6,8 @@ publishDate: 2025-07-16T20:00:00+02:00
 
 Přijďte si užít letní podvečer plný zábavy nejen s&nbsp;filmem, ale i&nbsp;s trochou přemýšlení a&nbsp;soutěžení! 🎉🧠📚
 
+<!--more-->
+
 Ještě než na plátně poběží film **Džob**, připravili jsme pro vás **první Rudický kvíz** – týmovou vědomostní hru.
 Kvíz proběhne v&nbsp;pohodové atmosféře v&nbsp;[Sadu pod Lipou](https://maps.app.goo.gl/PkK9S2EBhhUzFXkR6) a&nbsp;je ideální příležitostí otestovat si své znalosti z&nbsp;různých oblastí a&nbsp;u&nbsp;toho se pobavit s&nbsp;přáteli.
 

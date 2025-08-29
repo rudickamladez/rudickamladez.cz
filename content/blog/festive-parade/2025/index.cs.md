@@ -10,7 +10,10 @@ seo:
   type: website
 ---
 
-Za jisté jste už někdy přemýšleli, kudy vede náš sobotní krojovaný hodový průvod.
+Za jisté jste už někdy přemýšleli, kudy vede náš sobotní krojovaný hodový průvod, v&nbsp;tomto článku se to dozvíte!
+
+<!--more-->
+
 Začátek je na [Rudickém parkovišti nejen pro autobusy](https://maps.app.goo.gl/mmqAVv9qUsHAzXPe6) v&nbsp;14:30, konec průvodu je v&nbsp;[Sadě pod Lipou](https://maps.app.goo.gl/EZE7RF37b2sy4rxk9).
 
 Letošní zastávky:

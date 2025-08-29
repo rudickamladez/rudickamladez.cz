@@ -10,7 +10,10 @@ seo:
   type: website
 ---
 
-Surely you've wondered at some point which route our Saturday traditional-costume festival parade takes.  
+Surely you've wondered at some point which route our Saturday traditional-costume festival parade takes. 
+
+<!--more-->
+
 The parade starts at the [Rudice parking lot for buses](https://maps.app.goo.gl/mmqAVv9qUsHAzXPe6) at **2:30 PM**, and ends in the [Sad pod Lipou park](https://maps.app.goo.gl/EZE7RF37b2sy4rxk9).
 
 This year’s stops:

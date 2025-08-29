@@ -6,7 +6,9 @@ publishDate: 2025-06-25T20:00:00+02:00
 
 Srdečně vás zveme na naši letošní druhou projekci, která opět proběhne v&nbsp;krásném prostředí [Sadu pod Lipou](https://maps.app.goo.gl/PkK9S2EBhhUzFXkR6).
 Nebojte v případě lijáku, promítáme v&nbsp;[dělňáku](https://maps.app.goo.gl/fRbT5FhzffHoAYcj7)!
-Tentokrát jsme pro vás připravili film *Jak se nám to mohlo stát!?*. 👷🏻‍♂️👔🧰
+Tentokrát jsme pro vás připravili film *Jak se nám to mohlo stát!?*. 🤔⁉️
+
+<!--more-->
 
 Vstupné dobrovolné. 🎟 📽 \
 Datum: 16.&nbsp;7.&nbsp;2025 📅

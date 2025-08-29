@@ -8,6 +8,8 @@ Srdečně vás zveme na naši letošní druhou projekci, která opět proběhne 
 Nebojte v případě lijáku, promítáme v&nbsp;[dělňáku](https://maps.app.goo.gl/fRbT5FhzffHoAYcj7)!
 Tentokrát jsme pro vás připravili film *Moře na dvoře*. 🌊🏠🎻
 
+<!--more-->
+
 Vstupné dobrovolné. 🎟 📽 \
 Datum: 25.&nbsp;6.&nbsp;2025 📅
 
