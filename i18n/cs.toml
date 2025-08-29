@@ -5,8 +5,8 @@ other = "Rudická mládež"
 other = "Sdružení občanů zajímající se o lidové tradice obce Rudice, kulturu a místní zvyky"
 
 [readingTime]
-one = "Minuta čtení"
-other = "{{.Count}} minut čtení"
+one = "minuta čtení"
+other = "{{.Count}} minut{{ if and (ge .Count 2) (lt .Count 5) }}y{{ end }} čtení"
 
 [readArticle]
 other = "Číst článek"
