@@ -2,11 +2,14 @@
 title: O nás
 ---
 
-Jsme sdružení občanů, kteří se zajímají o&nbsp;lidové tradice obce Rudice, okolní přírodu, kulturu a&nbsp;místní zvyky. Mimo jiné pořádáme Společenské plesy, Antonínské hody, [Pohádkové lesy](https://pohles.rudickamladez.cz) a&nbsp;Rudická kina.
+Jsme sdružení občanů, kteří se zajímají o&nbsp;lidové tradice obce Rudice, okolní přírodu, kulturu a&nbsp;místní zvyky.
+Mimo jiné pořádáme Společenské plesy, Antonínské hody, [Pohádkové lesy](https://pohles.rudickamladez.cz) a&nbsp;Rudická kina.
 
 ## Vedení a organizace
 
-Nejvyšším orgánem spolku je Členská schůze. Statuárním orgánem je Předseda spolku, kterému pomáhá jmenovaný místopředseda. Předseda může také jmenovat pokladníka zodpovědného za finance.
+Nejvyšším orgánem spolku je Členská schůze.
+Statuárním orgánem je Předseda spolku, kterému pomáhá jmenovaný místopředseda.
+Předseda může také jmenovat pokladníka zodpovědného za finance.
 
 ### Předsedkyně
 
@@ -20,8 +23,7 @@ Kontakt:
 
 ### Místopředseda
 
-<!-- Lukáš Matuška -->
-Podílí se na reprezentaci spolku, napomáhá předsedkyni s koordinací činností RM a&nbsp;se zajišťováním komunikace uvnitř spolku.
+Podílí se na reprezentaci spolku, napomáhá předsedkyni s&nbsp;koordinací činností RM a&nbsp;se zajišťováním komunikace uvnitř spolku.
 V&nbsp;některých případech předsedu zastupuje.
 Je jmenován předsedkyní a&nbsp;zůstává ve funkci až do začátku funkčního období nového předsedy.
 
