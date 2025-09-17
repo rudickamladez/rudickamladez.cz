@@ -28,6 +28,7 @@ Podílí se na reprezentaci spolku, napomáhá předsedkyni s&nbsp;koordinací �
 V&nbsp;některých případech předsedu zastupuje.
 Je jmenován předsedkyní a&nbsp;zůstává ve funkci až do začátku funkčního období nového předsedy.
 
+Funkci vykonává [Lukáš Matuška](https://lukasmatuska.cz/). \
 Kontakt:
 [mistopredseda@rudickamladez.cz](mailto:mistopredseda@rudickamladez.cz),
 [+420 604 192 783](tel:+420604192783)
