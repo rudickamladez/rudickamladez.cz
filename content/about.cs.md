@@ -10,6 +10,7 @@ Mimo jiné pořádáme Společenské plesy, Antonínské hody, [Pohádkové lesy
 Nejvyšším orgánem spolku je Členská schůze.
 Statuárním orgánem je Předseda spolku, kterému pomáhá jmenovaný místopředseda.
 Předseda může také jmenovat pokladníka zodpovědného za finance.
+Vedení spolku je možné kontaktovat emailem na [vedeni@rudickamladez.cz](mailto:vedeni@rudickamladez.cz).
 
 ### Předsedkyně
 
