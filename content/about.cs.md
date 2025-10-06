@@ -14,11 +14,11 @@ Vedení spolku je možné kontaktovat emailem na [vedeni@rudickamladez.cz](mailt
 
 ### Předsedkyně
 
-<!-- Petra Matušková -->
 Je statutárním orgánem RM, který jedná jménem spolku samostatně, zabezpečuje činnost spolku, zpravidla zastupuje spolek navenek a&nbsp;také vede.
 Koordinuje činnost spolku mezi Členskými schůzemi.
 Její funkční období je pětileté.
 
+Funkci vykonává Petra&nbsp;Matušková. \
 Kontakt:
 [predsedkyne@rudickamladez.cz](mailto:predsedkyne@rudickamladez.cz)
 
@@ -28,7 +28,7 @@ Podílí se na reprezentaci spolku, napomáhá předsedkyni s&nbsp;koordinací �
 V&nbsp;některých případech předsedu zastupuje.
 Je jmenován předsedkyní a&nbsp;zůstává ve funkci až do začátku funkčního období nového předsedy.
 
-Funkci vykonává [Lukáš Matuška](https://lukasmatuska.cz/). \
+Funkci vykonává [Lukáš&nbsp;Matuška](https://lukasmatuska.cz/). \
 Kontakt:
 [mistopredseda@rudickamladez.cz](mailto:mistopredseda@rudickamladez.cz),
 [+420 604 192 783](tel:+420604192783)
