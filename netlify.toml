@@ -20,7 +20,7 @@
 
 [[redirects]]
 	from = "/zv" # Feedback
-	to = "https://docs.google.com/forms/d/e/1FAIpQLSeKHlJPV0OqUFz6YG526s7Zd0yMBjGlpdF9RBM2bK_tyXtQpw/viewform"
+	to = "/cs/no-feedback-form/"
 	status = 301
 
 [[redirects]]
