@@ -69,6 +69,16 @@
 	status = 301
 
 [[redirects]]
+	from = "/sere"
+	to = "/self-report"
+	status = 301
+
+[[redirects]]
+	from = "/self-report"
+	to = "https://forms.gle/fRCSam3FNEkh6U9h8"
+	status = 301
+
+[[redirects]]
 	from = "/en/*" # English ‒ Not found
 	to = "/en/404/"
 	status = 404
