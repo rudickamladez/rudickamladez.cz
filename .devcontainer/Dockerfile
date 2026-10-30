@@ -17,4 +17,6 @@ WORKDIR /src
 
 EXPOSE 1313
 
-CMD ["/usr/bin/hugo", "server", "--disableFastRender"]
+# Local dev server. --bind 0.0.0.0 makes it reachable from the host, and
+# --baseURL keeps generated links on localhost instead of rudickamladez.cz.
+CMD ["/usr/bin/hugo", "server", "--disableFastRender", "--bind", "0.0.0.0", "--baseURL", "http://localhost:1313/"]
