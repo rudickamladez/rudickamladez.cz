@@ -1,10 +1,8 @@
 <header class="o-header">
-    <nav class="o-nav">
+    <nav class="o-nav" aria-label="{{ i18n "mainNavigation" }}">
         <ul class="o-nav__list">
-            {{- $currentPage := . -}}
             {{ range .Site.Menus.main -}}
             <li class="o-nav__item">
-                {{/*  <a class="o-nav__link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | absLangURL }}">  */}}
                 <a class="o-nav__link" href="{{ .URL | absLangURL }}">
                     {{ .Name }}
                 </a>

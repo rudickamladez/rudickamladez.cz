@@ -1,13 +1,28 @@
 {{ define "main" }}
-<main class="home">
-    <h1>{{ i18n "homeTitle" }}</h1>
-    <div class="description">
-        <p class="text-center">{{ i18n "homeDescription" }}</p>
-        {{ if lt (now) (time "2025-08-13T17:00:00+02:00") }}
-        <a href="./blog/quiz/2025-08-13/" class="button-link">
-            {{ i18n "quiz" }}
-        </a>
-        {{ end }}
-    </div>
+<main class="home-page" id="main-content">
+    <section class="home-hero">
+        <h1>{{ i18n "homeTitle" }}</h1>
+        <div class="description">
+            <p class="text-center">{{ i18n "homeDescription" }}</p>
+            {{ if lt (now) (time "2025-08-13T17:00:00+02:00") }}
+            <a href="./blog/quiz/2025-08-13/" class="button-link">
+                {{ i18n "quiz" }}
+            </a>
+            {{ end }}
+        </div>
+    </section>
+
+    {{ $posts := where .Site.RegularPages "Type" "blog" }}
+    {{ range first 1 ($posts.ByDate.Reverse) }}
+    <section class="home-latest" aria-labelledby="home-latest-title">
+        <div class="home-latest__content">
+            <p class="home-latest__eyebrow">{{ i18n "latestArticle" }}</p>
+            <h2 id="home-latest-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p class="home-latest__date">{{ .PublishDate.Format (i18n "dateFormat") }}</p>
+            <div class="home-latest__summary">{{ .Summary }}</div>
+            <a class="home-latest__link" href="{{ .RelPermalink }}">{{ i18n "readArticle" }} →</a>
+        </div>
+    </section>
+    {{ end }}
 </main>
 {{ end }}

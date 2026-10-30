@@ -3,6 +3,7 @@
 {{ partial "head" . }}
 
 <body>
+    <a class="skip-link" href="#main-content">{{ i18n "skipToContent" }}</a>
     {{ partial "header" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer" . }}
