@@ -54,8 +54,15 @@ main ul {
     }
 }
 
-main.home {
-    flex-grow: 1;
+.home-page {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.home-hero {
+    flex: 1 0 auto;
+    min-height: clamp(34rem, 72vh, 48rem);
     margin: 0px;
     background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0.65) 59%), url(/images/DSC_1924mm.jpg) right bottom;
     background-size: cover;
@@ -63,7 +70,7 @@ main.home {
     display: grid;
 }
 
-main.home h1,
+.home-hero h1,
 main.notfound h1 {
     margin: auto;
     margin-bottom: 0px;
@@ -72,13 +79,13 @@ main.notfound h1 {
     text-align: center;
 }
 
-main.home div.description {
+.home-hero div.description {
     margin: 0 auto auto auto;
     display: flex;
     flex-direction: column;
 }
 
-main.home div.description p,
+.home-hero div.description p,
 main.notfound p {
     margin: auto;
     margin-top: 0px;
@@ -86,7 +93,7 @@ main.notfound p {
     text-shadow: 2px 2px 5px #000;
 }
 
-main.home .button-link {
+.home-hero .button-link {
     display: block;
     margin: 15px auto 0 auto;
     padding: 10px 15px;
@@ -99,11 +106,11 @@ main.home .button-link {
     transition: background-color 0.3s ease;
 }
 
-main.home .button-link:hover {
+.home-hero .button-link:hover {
     background-color: #fff;
 }
 
-main.home a,
+.home-hero a,
 main.notfound a {
     text-decoration: none;
     border-bottom: 1px solid #fff;
@@ -126,10 +133,47 @@ main.notfound a {
 
 @media only screen and (max-width: 600px) {
 
-    main.home p,
+    .home-hero p,
     main.notfound p {
         max-width: 85%;
     }
+}
+
+.home-latest {
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 2.5rem;
+    border-top: 1px solid #ddd;
+}
+
+.home-latest__eyebrow {
+    margin-bottom: 0.35rem;
+    color: #666;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.home-latest h2 {
+    margin: 0;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.home-latest h2 a,
+.home-latest__link {
+    color: #000;
+}
+
+.home-latest__date {
+    margin: 0.5rem 0 0.75rem;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.home-latest__summary {
+    margin-bottom: 0.75rem;
 }
 
 .o-header {

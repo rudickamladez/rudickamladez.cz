@@ -20,6 +20,12 @@ other = "{{.Count}} minutes to read"
 [readArticle]
 other = "Read article"
 
+[latestArticle]
+other = "Latest from the blog"
+
+[dateFormat]
+other = "Jan 2, 2006"
+
 [festiveParade]
 other = "Festive parade 🗺️"
 

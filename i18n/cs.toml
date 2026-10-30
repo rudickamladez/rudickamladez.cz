@@ -17,6 +17,12 @@ other = "{{.Count}} minut{{ if and (ge .Count 2) (lt .Count 5) }}y{{ end }} čte
 [readArticle]
 other = "Číst článek"
 
+[latestArticle]
+other = "Poslední článek z blogu"
+
+[dateFormat]
+other = "2. 1. 2006"
+
 [festiveParade]
 other = "Hodový průvod 🗺️"
 
